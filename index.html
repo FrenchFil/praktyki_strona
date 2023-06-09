@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Prototyp</title>
+    <script defer src="app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+          <div class="row justify-content-md-center" id="strona_glowna">
+           
+                <div id="test" class="col-md-10 mx-auto my-auto fade-in-down">
+                 <img src="logo.png" id="logo">
+                 <p id="tekst1" style="text-align:center">Krotki opis/zapytanie w stylu czego potrzebujesz itp.</p>
+                 <div class="row justify-content-md-center">
+                 <div class="col-md-12 w-100">
+                    <h2 id="naglowek" style="text-align:center">Zajmujemy się:</h2>
+                    <div class="row justify-content-md-center ">
+                    <div class="col-md-4 mt-2 w-100" id="frame">
+                        
+                        <video autoplay loop muted class="background_video" id="video_1">
+                            <source src="eksperyment.mp4" type="video/mp4">
+                            <h3 class="hidden">Projektowanie</h3>
+                        </video>
+                        
+                        
+                    </div>
+                    <div class="col-md-4 mt-2 w-100" id="frame">
+                        <video autoplay loop muted class="background_video" id="video_1">
+                            <source src="eksperyment.mp4" type="video/mp4">
+                        </video>
+                        <h3 class="hidden">Projektowanie</h3>
+                        
+                    </div>
+
+                    <div class="col-md-4 mt-2 w-100" id="frame">
+                        <video autoplay loop muted class="background_video" id="video_1">
+                            <source src="eksperyment.mp4" type="video/mp4">
+                        </video>
+                        
+                        
+                    </div>
+                
+                     <script>
+  
+                        // Targeting video element 
+                        let clip = document.querySelector(".background_video")
+                  
+                        /* Applying mouseover event on video clip 
+                        and then we call play() function to play 
+                        the video when the mouse is over the video */
+                        clip.addEventListener("mouseover", function (e) {
+                            clip.play();
+                        })
+                  
+                        /* Applying mouseout event on video clip 
+                        and then we call pause() function to stop 
+                        the video when the mouse is out the video */
+                        clip.addEventListener("mouseout", function (e) {
+                            clip.pause();
+                        
+                        })
+                    </script>
+    
+
+
+                 </div>
+                </div>
+
+         
+         </div>
+        </div>
+
+    </div>
+    
+
+
+    
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+<footer>
+    <div class="row" style="">
+    <div class="col-md-6" >
+        <p>telefon: +48 507 973 736</p>
+        
+    </div>
+    <div class="col-md-6" id="alignment">
+        <img src="linkedin.png" class="icon"></img>
+        <img src="linkedin.png" class="icon"></img>
+        <img src="linkedin.png" class="icon"></img>
+    </div>
+    
+    </div>
+</footer>
+<footer class="mini_footer"></footer>
+</html>
