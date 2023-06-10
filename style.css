@@ -66,4 +66,8 @@ p{
 #alignment{
     display:flex;
     align-items: center;
+    margin-top:10px;
+}
+#footer_contact{
+    margin-top:10px;
 }

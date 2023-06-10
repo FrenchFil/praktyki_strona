@@ -40,7 +40,7 @@
                         <video autoplay loop muted class="background_video" id="video_1">
                             <source src="eksperyment.mp4" type="video/mp4">
                         </video>
-                        <h3 class="hidden">Projektowanie</h3>
+                        
                         
                     </div>
 
@@ -52,27 +52,25 @@
                         
                     </div>
                 
-                     <script>
-  
-                        // Targeting video element 
-                        let clip = document.querySelector(".background_video")
-                  
-                        /* Applying mouseover event on video clip 
-                        and then we call play() function to play 
-                        the video when the mouse is over the video */
-                        clip.addEventListener("mouseover", function (e) {
-                            clip.play();
-                        })
-                  
-                        /* Applying mouseout event on video clip 
-                        and then we call pause() function to stop 
-                        the video when the mouse is out the video */
-                        clip.addEventListener("mouseout", function (e) {
-                            clip.pause();
-                        
-                        })
-                    </script>
-    
+                    <script>
+                        // Get all video elements with the class "my-video"
+                        var videos = document.getElementsByClassName('background_video');
+                    
+                        // Loop through each video element
+                        for (var i = 0; i < videos.length; i++) {
+                          var video = videos[i];
+                    
+                          // Add event listener for mouseenter to play the video
+                          video.addEventListener('mouseenter', function() {
+                            this.play();
+                          });
+                    
+                          // Add event listener for mouseleave to pause the video
+                          video.addEventListener('mouseleave', function() {
+                            this.pause();
+                          });
+                        }
+                      </script>
 
 
                  </div>
@@ -90,8 +88,8 @@
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 <footer>
-    <div class="row" style="">
-    <div class="col-md-6" >
+    <div class="row">
+    <div class="col-md-6" id="footer_contact">
         <p>telefon: +48 507 973 736</p>
         
     </div>
