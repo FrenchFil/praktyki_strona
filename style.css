@@ -1,12 +1,14 @@
 footer {
     background-color: #7fffd4;
     margin-top: 3vh;
-    height: 100px;
+    width:100vw;
+    height: 150px;
     opacity: 90%;
 }
 
 body {
     width: 100vw;
+    overflow-x: hidden;
 }
 
 p {
@@ -133,4 +135,9 @@ h1:hover{
     text-align: center;
     font-size: 24px;
     z-index: 1;
+}
+#second_footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
