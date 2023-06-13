@@ -73,7 +73,12 @@ h1:hover{
     width: 25vw;
     flex-wrap:wrap;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
     
+}
+#frame:hover{
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
 }
 
 #frame .video-container {
