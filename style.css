@@ -9,6 +9,8 @@ footer {
 body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: blueviolet;
+    
 }
 
 p {
@@ -55,6 +57,7 @@ h1:hover{
 #logo {
     transition: all 0.3s ease-in-out;
     align-items: center;
+    margin-left:150px;
 }
 
 #logo:hover {
@@ -72,7 +75,6 @@ h1:hover{
     height: 35vw;
     width: 25vw;
     flex-wrap:wrap;
-    border-radius: 10px;
     transition: all 0.3s ease-in-out;
     
 }
@@ -104,6 +106,7 @@ h1:hover{
     background-color: rgba(0, 0, 0, 0.5);
     transition: all 0.6s  ease-in-out;
     flex-wrap:wrap;
+    margin:0;
 
 }
 #frame .video-overlay:hover{
@@ -145,4 +148,8 @@ h1:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+}
+#nav_bar{
+    display: flex;
+    flex-wrap: nowrap;
 }
