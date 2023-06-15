@@ -9,7 +9,7 @@ footer {
 body {
     width: 100vw;
     overflow-x: hidden;
-    background-color: blueviolet;
+    
     
 }
 
@@ -152,4 +152,7 @@ h1:hover{
 #nav_bar{
     display: flex;
     flex-wrap: nowrap;
+}
+#paragraph_navbar{
+    margin-right:2vw;
 }
