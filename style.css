@@ -1,5 +1,5 @@
 footer {
-    background-color: #7fffd4;
+    background-color: #009adb;
     margin-top: 3vh;
     width:100vw;
     height: 150px;
@@ -9,8 +9,22 @@ footer {
 body {
     width: 100vw;
     overflow-x: hidden;
-    
-    
+}
+input{
+
+}
+
+button{
+        height: 30px;
+        width: 150px;
+        background: linear-gradient(#009adb, #009adb 50%, #64b404 50%, #64b404);
+        background-size: 100% 200%;
+        transition: background 1s;
+        border-radius: 3px;
+}
+
+button:hover{
+    background-size:100% 100%;
 }
 
 p {
@@ -32,7 +46,7 @@ h1:hover{
 .mini_footer {
     height: 10px;
     margin-top: 0vh;
-    background-color: #53f8c1;
+    background-color: #64b404;
 }
 
 .icon {
