@@ -13,6 +13,9 @@ body {
 input{
 
 }
+#switch_night_mode{
+    color:black
+}
 
 button{
         height: 30px;
