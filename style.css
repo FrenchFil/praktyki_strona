@@ -13,7 +13,7 @@ body {
 input{
 
 }
-#switch_night_mode{
+#flexSwitchCheckDefault{
     color:black
 }
 
@@ -24,6 +24,7 @@ button{
         background-size: 100% 200%;
         transition: background 1s;
         border-radius: 3px;
+        outline:2px solid darkblue;
 }
 
 button:hover{
