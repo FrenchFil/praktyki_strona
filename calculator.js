@@ -4,5 +4,6 @@ function getValue(){
     var sum;
     sum = Number(calc_value.value) + Number(calc_value2.value);
     console.log(sum);
+    document.getElementById('calc_result').value = sum;
 
 }
