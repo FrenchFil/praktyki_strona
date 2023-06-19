@@ -16,6 +16,7 @@ body {
 input{
     width:100px;
     height: 40px;
+    text-align: center;
 
 
 }
@@ -74,8 +75,16 @@ h1:hover{
 .description{
     color:red;
 }
+.centered_row{
+    justify-content: center;
+}
 .background_video:hover{
     filter:grayscale(0%);
+}
+.calc_button{
+    margin-top:40px;
+    width:200px;
+    height:30px;
 }
 
 #logo {
@@ -185,6 +194,8 @@ h1:hover{
     align-items: center;
     border:1px solid;
     height:600px;
-    margin-top:20px;
+    padding-top:40px;
     border-radius: 5px;
+    text-align:center;
 }
+
