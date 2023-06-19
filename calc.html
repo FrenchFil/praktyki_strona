@@ -10,7 +10,7 @@
     <title>Prototyp</title>
 
     <script src="calculator.js"></script>
-
+    <script src="footer.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
@@ -24,7 +24,37 @@
             <p id="paragraph_navbar">Kontakt</p>
           </div>
     </nav>
-    <input type="number" id="calc_value"></input>
-    <input type="number"id="calc_value2"></input>
-    <button onclick="getValue()"></button>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" id="calc_menu">
+
+          <input type="number" id="calc_value"></input>
+          <input type="number"id="calc_value2"></input>
+          <button onclick="getValue()">Calculate</button>
+          
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+
+    <footer>
+      <div class="row">
+          <div class="col-md-6" id="footer_contact">
+              <p>telefon: +48 507 973 736</p>
+              <p>Krzysztof Habelok</p>
+          </div>
+          <div class="col-md-6" id="alignment">
+              <img src="linkedin.png" class="icon"></img>
+              <img src="linkedin.png" class="icon"></img>
+              <img src="linkedin.png" class="icon"></img>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-12" id="second_footer">
+                  <p>Contact</p>
+                  <p>Socials</p>
+                  <p>NIP</p>
+          </div>
+      </div>
+  </footer>
+  <footer class="mini_footer"></footer>
 </body>
