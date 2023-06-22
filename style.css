@@ -76,7 +76,9 @@ h1:hover{
     filter:grayscale(90%);
 }
 .description{
-    color:red;
+    color:gray;
+    margin-top:20px;
+    text-align: center;
 }
 .centered_row{
     justify-content: center;
