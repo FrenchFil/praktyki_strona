@@ -79,9 +79,10 @@ h1:hover{
     color:gray;
     margin-top:20px;
     text-align: center;
+    align-self: center;
 }
 .centered_row{
-    justify-content: center;
+    align-items: center;
 }
 .background_video:hover{
     filter:grayscale(0%);
