@@ -45,6 +45,7 @@ p {
 h1{
     transition: all 0.6s  ease-in-out;
     margin: bottom 100px;
+    text-align: center;
 }
 h1:hover{
 
