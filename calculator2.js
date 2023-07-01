@@ -1,10 +1,15 @@
 function getValue(){
-    option1 = document.getElementById("calc_value").value;
+    option1 = document.getElementById("withdrawing");
+    var value = option1.value;
    var sum;
    if(option1 == 0){
        
       }
-   sum = Number(calc_value.value)*140;
+   if(value==2)
+   {
+      sum = 20
+   }
+
    console.log(sum);
-   document.getElementById('calc_result').value = sum;
+   document.getElementById('withdrawing').value = sum;
 }
