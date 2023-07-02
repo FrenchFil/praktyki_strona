@@ -7,9 +7,9 @@ function getValue(){
       }
    if(value==2)
    {
-      sum = 20
+      sum = 100*value;
    }
 
    console.log(sum);
-   document.getElementById('withdrawing').value = sum;
+   document.getElementById('calc_result').value = sum;
 }
