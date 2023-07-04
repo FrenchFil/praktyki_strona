@@ -5,6 +5,10 @@ function getValue(){
    if(option1 == 0){
        
       }
+      if(value==1)
+      {
+         sum = 150*value;
+      }
    if(value==2)
    {
       sum = 100*value;
