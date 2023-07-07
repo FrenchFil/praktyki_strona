@@ -1,5 +1,6 @@
 function getValue(){
     option1 = document.getElementById("withdrawing");
+    days = document.getElementById("calc_value").value;
     var value = option1.value;
    var sum;
    if(option1 == 0){
@@ -7,7 +8,7 @@ function getValue(){
       }
       if(value==1)
       {
-         sum = 150*value;
+         sum = 150*days;
       }
    if(value==2)
    {
