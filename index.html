@@ -51,6 +51,19 @@
                                 <div class="video-overlay">
                                     <h1 class="hidden">Projektowanie</h1>
                                     <p class="description">We are making projects</p>
+                                    <button class="go_to"></button>
+                                    <script>
+                                        const button = document.querySelector('.go_to');
+                                      
+                                        button.addEventListener('mouseover', () => {
+                                          button.style.background = 'linear-gradient(to right, white, black)';
+                                          button.style.transition = 'background 0.5s ease';
+                                        });
+                                      
+                                        button.addEventListener('mouseout', () => {
+                                          button.style.background = 'white';
+                                        });
+                                      </script>
                                 </div>
                             </div>
                         </div>
