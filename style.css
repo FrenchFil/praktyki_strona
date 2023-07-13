@@ -2,7 +2,7 @@ footer {
     background-color: #009adb;
     margin-top: 3vh;
     width:100vw;
-    height: 150px;
+    height: 15vw;
     bottom: 0;
 }
 
@@ -27,15 +27,20 @@ input{
 button{
         height: 30px;
         width: 150px;
-        background: linear-gradient(#009adb, #009adb 50%, #64b404 50%, #64b404);
-        background-size: 100% 200%;
-        transition: background 1s;
+        background: rgb(0,154,219);
+background: linear-gradient(90deg, rgba(0,154,219,1) 77%, rgba(100,180,4,1) 100%);
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+    transition: 1s ease-in-out;
         border-radius: 3px;
         font-family: 'Montserrat';
+        
 }
 
 button:hover{
-    background-size:100% 100%;
+    background-position:100% 100%;
 }
 
 p {
@@ -47,7 +52,9 @@ h1{
     margin: bottom 100px;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 120px;
+    font-size: 7vw;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+
 }
 h1:hover{
 
