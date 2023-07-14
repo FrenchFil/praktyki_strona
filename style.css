@@ -43,9 +43,8 @@ button:hover{
     background-position:100% 100%;
 }
 
-p {
+p  {
     font-family: 'Montserrat';
-    margin-left: 10vw;
 }
 h1{
     transition: all 0.6s  ease-in-out;
@@ -73,12 +72,16 @@ h2{
     background-color: #64b404;
 }
 
+
 .icon {
     height: 40px;
     width: 40px;
     margin-left: 10px;
 }
-
+.thick_font{
+    font-weight: 900;
+    font-size: 15pt;
+}
 .background_video {
     width: 100%;
     height: 100%;
@@ -164,6 +167,7 @@ h2{
     position: relative;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #frame .video-overlay {
@@ -251,14 +255,42 @@ h2{
     margin-top:20px;
 }
 #description_block{
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 8px 20px 2px rgba(61, 58, 58, 0.8);
-    border-radius: 3px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    border-radius: 10px;
+    border-bottom: 5px solid gray;
+
 }
 #withdrawing{
     text-align: center;
     border-radius: 15px;
+}
+#carousel_img{
+    object-fit: fill;
+    height: 35vw;
+    width: 25vw;
+}
+#icons{
+    font-size: 4vw;
+    margin-top: 30px;
+}
+#sections{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+#sections:hover{
+    transform: scale(1.05) ;
+    transition: 0.2s ease-in-out;
+}
+#desc_row{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center ;
+
 }
 
 @keyframes example {
