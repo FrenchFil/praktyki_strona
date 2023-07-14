@@ -81,6 +81,7 @@ h2{
 .thick_font{
     font-weight: 900;
     font-size: 15pt;
+    color:antiquewhite;
 }
 .background_video {
     width: 100%;
@@ -130,6 +131,9 @@ h2{
   animation-name: example;
   animation-duration: 4s;
   animation-delay: 0ms;
+  }
+  .font_color{
+    color: #009adb;
   }
  
 
