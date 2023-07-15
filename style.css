@@ -2,13 +2,15 @@ footer {
     background-color: #009adb;
     margin-top: 3vh;
     width:100vw;
-    height: 15vw;
+    height: 400px;
     bottom: 0;
+    max-height: 80vw;
 }
 
 body {
     width: 100vw;
     overflow-x: hidden;
+    min-height: 100vw;
 }
 input{
     width:100px;
@@ -259,8 +261,8 @@ h2{
     margin-top:20px;
 }
 #description_block{
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: rgb(12,224,227);
+    background: linear-gradient(40deg, rgba(12,224,227,1) 0%, rgba(250,175,15,1) 100%);
     border-radius: 10px;
     border-bottom: 5px solid gray;
 
@@ -297,6 +299,12 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 
 }
 
+ #sections.col-md-12:hover{
+    transform: none;
+}
+#header_centered{
+    align-items: center;
+}
 @keyframes example {
     from {background-color: red}
     to {background-color: yellow;}
