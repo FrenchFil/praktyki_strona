@@ -305,6 +305,10 @@ h2{
 #header_centered{
     align-items: center;
 }
+#span{
+    font-size: 10vw;
+    font-family: cursive;
+}
 @keyframes example {
     from {background-color: red}
     to {background-color: yellow;}
