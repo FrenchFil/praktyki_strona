@@ -267,6 +267,13 @@ h2{
     border-bottom: 5px solid gray;
 
 }
+#description_block2{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,101,253,1) 27%, rgba(100,252,69,1) 79%);
+    border-radius: 10px;
+    border-bottom: 5px solid gray;
+
+}
 #withdrawing{
     text-align: center;
     border-radius: 15px;
@@ -308,6 +315,11 @@ h2{
 #span{
     font-size: 10vw;
     font-family: cursive;
+}
+#thick_header{
+    font-weight: 900;
+    font-size:6vw;
+    color:antiquewhite;
 }
 @keyframes example {
     from {background-color: red}
