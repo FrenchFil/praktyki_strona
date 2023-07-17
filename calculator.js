@@ -6,7 +6,7 @@ function getValue(){
       document.getElementById('calc_result').value = error;
        }
        else{
-             sum = Number(calc_value.value)*85;
+             sum = Number(calc_value.value)*85 +' pln';
     console.log(sum);
     document.getElementById('calc_result').value = sum;}
 }
