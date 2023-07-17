@@ -269,7 +269,7 @@ h2{
 }
 #description_block2{
     background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,101,253,1) 27%, rgba(100,252,69,1) 79%);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,101,253,1) 72%, rgba(252,238,69,1) 100%);
     border-radius: 10px;
     border-bottom: 5px solid gray;
 
