@@ -1,11 +1,4 @@
-footer {
-    background-color: #009adb;
-    margin-top: 3vh;
-    width:100vw;
-    height: 200px;
-    bottom: 0;
-    max-height: 80vw;
-}
+
 textarea{
     border-radius: 10px;
     font-family: 'Montserrat';
@@ -28,6 +21,24 @@ input{
 
 
 }
+.footer h4{
+    color:white;
+    position: relative;
+    margin-bottom: 20px;
+
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    background-color:rgb(3, 203, 3);
+    width: 50px;
+    left:10px;
+    height:2px;
+    bottom:-10px;
+    
+}
+
 #flexSwitchCheckDefault{
     color:black
 }
@@ -344,3 +355,44 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,101,253,1) 72%
     to {background-color: yellow;}
   }
   
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  .footer{
+    background-color: #009adb;
+      padding: 70px 0;
+      margin-top: 40px;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  
+
+ 
+  
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
