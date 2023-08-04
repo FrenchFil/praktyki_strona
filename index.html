@@ -25,38 +25,23 @@
 
     
 <body class="">
-    <nav class="navbar bg-light">
-    <div class="container-fluid" id="nav_bar">
-        <a class="navbar-brand" href="contact.html">
-          <img src="logo.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top" id="logo">
-        </a>
-        <a href="contact.html"> <button>Contact</button></a>
-       
-
     
-        
-      </div>
-     
-    </nav>
-    <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8" id="description_block2">
-        <div class="row" class="index_req" >
-        <div class="col-md-12" id="sections">
-            <i class="fa-sharp fa-solid fa-users"  id="icons"></i>
-                <h3 id="thick_header">About us</h3>
-                <p class="thick_font">At "Effiso", we are a passionate and experienced team specializing in electrical engineering. With a focus on designing top-quality electrical installations and industrial machinery, we serve clients in industries such as energy, mining, and automotive.</p>
-                <p class="thick_font">With our extensive experience, we have successfully completed numerous projects, providing comprehensive services that go beyond design and implementation. Our offerings include energy audits, measurements, and valuable advice to help clients achieve their goals efficiently.</p>
-                <p class="thick_font">Collaboration and knowledge sharing are fundamental to our values. By leveraging our collective experiences and expertise, we create innovative and sustainable technical solutions.</p>
-                <p class="thick_font">What sets us apart is not just our technical prowess but also our genuine joy for electrical engineering. We thrive on solving complex challenges and take immense satisfaction in our work.</p>
-                <p class="thick_font">We are excited about the opportunity to work with you, bringing our skills to your projects. Whether you need expert advice, innovative designs, or reliable project execution, we are committed to delivering exceptional electrical engineering services. Let's partner together and create a brighter future.</p>
-                <p class="thick_font">Don't hesitate to reach out to us. We eagerly await the chance to collaborate with you</p>
-        </div>
+        <div class="row" class="index_req">
+        <div class="col-md-12" id="video_background">
+            <video autoplay muted loop id="video-background">
+                <source src="test_video.mp4" type="video/mp4" class="main_page_video">
+            </video>
+            <div class="video-overlay">
+                <div class="row">
+                    <h1 class="content">We are Effiso</h1>
+                </div>
+                
+            </div>
             
         </div>
         </div>
     <div class="row justify-content-md-center" id="strona_glowna" style="margin-top:50px;">
-        <div id="test" class="col-md-10 mx-auto my-auto fade-in-down">
+        <div id="test" class="col-md-12 mx-auto my-auto fade-in-down">
             <div class="row justify-content-md-center">
                 <div class="col-md-12 w-100">
                     <h2 id="naglowek" style="text-align:center">We are providing:</h2>
@@ -69,28 +54,22 @@
                                 </video>
                                 <div class="video-overlay">
                                     <div class="row">
-                                        <h1 class="hidden">Documentations</h1>
+                                        <h1 class="on_video">Documentations</h1>
                                     </div>
                                     
                                 </div>
                             </div>
                         </div>
                     </a>
-                    <a href="descriptions.html">
-                        <div class="col-md-4 mt-2 w-100" id="frame">
-                            <div class="video-container">
-                                <video autoplay loop muted class="background_video" id="video_1">
-                                    <source src="eksperyment.mp4" type="video/mp4">
-                                </video>
-                                <div class="video-overlay">
-                                    <div class="row">
-                                        <h1 class="hidden">Projecting</h1>
-                                    </div>
-                        
-                                </div>
+                    <div class="row">
+                            <div class="col-md-12" id="description_test">
+                                <h1>costam</h1>
                             </div>
                         </div>
-                    </a>
+                        
+                            
+              
+
                     <a href="descriptions.html">
                         <div class="col-md-4 mt-2 w-100" id="frame">
                             <div class="video-container">
@@ -139,28 +118,7 @@
     </div>
     
     <script src="js/bootstrap.bundle.js"></script>
-    <script>
-        // Get all video elements with the class "background_video"
-        var videos = document.getElementsByClassName('background_video');
-
-        // Loop through each video element
-        for (var i = 0; i < videos.length; i++) {
-            var video = videos[i];
-            var overlay = video.nextElementSibling;
-
-            // Add event listener for mouseenter to play the video and show the overlay
-            video.addEventListener('mouseenter', function() {
-                this.play();
-                this.nextElementSibling.classList.add('show-overlay');
-            });
-
-            // Add event listener for mouseleave to pause the video and hide the overlay
-            video.addEventListener('mouseleave', function() {
-                this.pause();
-                this.nextElementSibling.classList.remove('show-overlay');
-            });
-        }
-    </script>
+    
 </body>
 <footer class="footer" >
     <div class="container">
@@ -170,24 +128,13 @@
         <p>telefon: +48 507 973 736</p>
         <p>Krzysztof Habelok</p>
         <p>NIP: 6462868486</p>
-        <p>REGON: 363516082</p>
+        <p>mail: khabelok@gmail.com </p>
        </div>
+       
        <div class="footer-col">
-         <h4>get help</h4>
-         <ul>
-           <li><a href="#">FAQ</a></li>
-           <li><a href="#">shipping</a></li>
-           <li><a href="#">returns</a></li>
-           <li><a href="#">order status</a></li>
-           <li><a href="#">payment options</a></li>
-         </ul>
-       </div>
-       <div class="footer-col">
-         <h4>follow us</h4>
+         <h4>Follow us</h4>
          <div class="social-links">
            <a href="#"><i class="fab fa-facebook-f"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
            <a href="#"><i class="fab fa-linkedin-in"></i></a>
          </div>
        </div>
