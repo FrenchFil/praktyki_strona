@@ -1,3 +1,9 @@
+var request = new XMLHttpRequest();
+request.open
+
+
+
+
 function getValue(){
      option1 = document.getElementById("calc_value").value;
     const error = "Choose number bigger than 0";
@@ -10,3 +16,4 @@ function getValue(){
     console.log(sum);
     document.getElementById('calc_result').value = sum;}
 }
+
