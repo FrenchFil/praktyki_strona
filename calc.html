@@ -32,32 +32,34 @@
           </div>
     </nav>
   
-    <div class="row" style="margin-top:100px;">
-      <div class="col-md-2"></div>
-      <div class="col-md-8" id="description_block2">
+    <h1 class="font_color" id="thick_font">Designing</h1>
         <div class="row">
-          <div class="col-md-12" style="text-align: center; margin-top:40px;">
-            <p> Write down amount of pages that you need</p>
-             <input type="number" id="calc_value"></input>
-             
-        
-          </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="description_block">
+                <div class="row" style="justify-content: center; height:200px;">
+                <div class="col-md-2" >
+                </div>
+                    <div class="col-md-6" id="main_block">
+                      <p style="margin-top: 10px;"> Write down amount of pages that you need</p>
+                      <div>
+                        <input type="number" id="calc_value" style="display: inline-block; width: auto;"></input>
+                        <input type="number" id="currency" style="display: inline-block; width: auto;">
+                      </div>
+                      <a onclick="getValue()"  id="testing"> Calculate</a>
+                      <textarea id="calc_result"> </textarea>
+                      <p class="description">One page of documentation costs 85 zloty </p>
+                    </div>
+                    <div class="col-md-2" ></div>
+                    </div>
+
+                    
+                  
+              </div>
+                  
+                </div>
+                
+            <div class="col-md-2"></div>
         </div>
-    <div class="row" class="centered_row" style="justify-content: center; text-align: center; margin-top:20px;">
-      <a onclick="getValue()"  id="testing"> Calculate</a>
-    </div>
-
-     <div class="row">
-      <div class="col-md-12" style="text-align: center;">
-        <textarea id="calc_result"> </textarea>
-      <p class="description">One page of documentation costs 85 zloty </p>
-      </div>
-     </div>
-      
-    </div>
-          
-      <div class="col-md-2"></div>
-
       <footer class="footer" id="fixed_footer">
         <div class="container">
          <div class="row1">
