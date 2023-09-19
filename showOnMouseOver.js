@@ -1,23 +1,9 @@
-const el = document.getElementById('container');
-
-const hiddenDiv = document.getElementById('hidden-div');
-
-// ✅ Show hidden DIV on hover
-el.addEventListener('mouseover', function handleMouseOver() {
-    hiddenDiv.style.opacity = '2';
-    hiddenDiv.style.display = 'block';
-  
-
-  // 👇️ if you used visibility property to hide div
-  // hiddenDiv.style.visibility = 'visible';
-});
-
-// ✅ (optionally) Hide DIV on mouse out
-el.addEventListener('mouseout', function handleMouseOut() {
-    hiddenDiv.style.opacity = '0s';
-    hiddenDiv.style.display = 'none';
- 
-
-  // 👇️ if you used visibility property to hide div
-  // hiddenDiv.style.visibility = 'hidden';
-});
+const host = 'api.frankfurter.app';
+fetch(`https://${host}/latest`)
+  .then(resp => resp.json())
+  .then((data) => {
+   // alert(`1 PLN = ${data.rates.PLN} EURO`);
+    var currency = data.rates.PLN;
+    let test = document.getElementById('span');
+    document.getElementById('span').innerHTML = currency;
+  });
