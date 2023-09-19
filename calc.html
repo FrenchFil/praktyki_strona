@@ -11,7 +11,7 @@
 
     <script src="calculator.js"></script>
     <script src="https://kit.fontawesome.com/89b213830a.js" crossorigin="anonymous"></script>
-    
+    <script src="showOnMouseOver.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +43,7 @@
                       <p style="margin-top: 10px;"> Write down amount of pages that you need</p>
                       <div>
                         <input type="number" id="calc_value" style="display: inline-block; width: auto;"></input>
-                        <input type="number" id="currency" style="display: inline-block; width: auto;">
+                        <p class="thick_font"id="span"></p>
                       </div>
                       <a onclick="getValue()"  id="testing"> Calculate</a>
                       <textarea id="calc_result"> </textarea>
