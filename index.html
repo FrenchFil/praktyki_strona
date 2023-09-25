@@ -26,6 +26,12 @@
     
 <body class="">
     
+    <div id="loader">
+        <div class="loader-content">
+          <img src="logo.png" class="loader-spinner"></img>
+          <p>Loading...</p>
+        </div>
+      </div>
         <div class="row" class="index_req">
         <div class="col-md-12" id="video_background">
             <video autoplay muted loop id="video-background">
@@ -72,6 +78,13 @@
         </div>
     
     <script src="js/bootstrap.bundle.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+          const loader = document.getElementById("loader");
+          loader.classList.add("hidden");
+        });
+        </script>
+        
     
 </body>
 <footer class="footer" >
