@@ -6,13 +6,37 @@ function getValue(){
    if(option1 == 0){
        
       }
-      if(value==1)
+      if(option1==1)
       {
          sum = 150*days;
       }
-   if(value==2)
+   if(option1==2)
    {
-      sum = 100*value;
+      sum = 100*days;
+   }
+   else if(option1==3)
+   {
+      sum = 100*days;
+   }
+   else if(option1==4)
+   {
+      sum = 200*days;  
+   }
+   else if(option1==5)
+   {
+      sum = 30*days;
+   }
+   else if(option1==6)
+   {
+      sum = 200*days;
+   }
+   else if(option1==7)
+   {
+      sum = 100*days;
+   }
+   else(option1==8)
+   {
+      sum = 100*days;
    }
 
    console.log(sum);

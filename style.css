@@ -50,7 +50,7 @@ input{
     
 }
 .calc_font{
-    font-size: 16px;
+    font-size: 8px;
     color: black;
 
 }
@@ -76,6 +76,7 @@ input{
   .loader-spinner {
     height:50px;
     width:150px;
+    animation: spin 1s linear infinite;
   }
   
   @keyframes spin {
@@ -133,6 +134,9 @@ h2{
 }
 .hidden {
     color: #009adb;
+}
+.test_background{
+   background-color:green;
 }
 
 .mini_footer {
@@ -224,7 +228,28 @@ h2{
     transition: 0.2s ease-in-out;
 
  }
-
+@media (max-width:768px){
+    #cool_border{
+        display:flex;
+        flex-direction: column;
+        height:80px;
+        border-right: 2px solid whitesmoke;
+        z-index: 999;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: 0.2s ease-in-out;
+     }
+     #cool_border:hover{
+        border: 2px solid whitesmoke;
+        transition: 0.2s ease-in-out;
+    
+     }
+     .test_button{
+        height:45px;
+        width: 45px;
+     }
+}
 
 
 #logo {
@@ -232,10 +257,16 @@ h2{
     align-items: center;
     width:200px;
     height:50px;
-    margin-bottom: 50px;
+    display: block;
+    margin: 20px auto;
 
 }
-
+@media (max-width: 768px) {
+    #logo {
+        max-width: 80%; /* Zmniejsz maksymalną szerokość na mniejszych ekranach */
+        margin: 10px auto; /* Dostosuj marginesy na mniejszych ekranach */
+    }
+}
 #logo:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
@@ -357,7 +388,6 @@ h2{
     transition: all 0.6s  ease-in-out;
     flex-wrap:wrap;
     margin:0;
-
 }
 
 #frame .video-overlay {
@@ -456,6 +486,9 @@ h2{
 #description_block{
     width: 100%;
     height:800px;
+    display: flex;
+    margin-top:30px;
+    flex-direction: column;
 
     align-items: center;
 
@@ -546,8 +579,7 @@ h2{
     align-items: center;
 }
 #span{
-    font-size: 10vw;
-    font-family: cursive;
+    font-size: 20px;
 }
 #thick_header{
     font-weight: 900;
@@ -578,6 +610,7 @@ h2{
   overflow: hidden;
   
 }
+
 .test_body{
     height: 100vh;
     margin: 0;
@@ -586,6 +619,17 @@ h2{
     flex-direction: column;
     overflow-x: hidden;
 }
+
+@media(max-width:767px){
+    #main_panel{
+        height:1000px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 400px;
+    }
+}
+
+
 @keyframes example {
     from {background-color: red}
     to {background-color: yellow;}
