@@ -16,43 +16,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
 </head>
 <body class="calc_body">
-    <nav class="navbar bg-light">
-        <div class="container-fluid" id="nav_bar">
-            <a class="navbar-brand" href="index.html">
-              <img src="logo.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top" id="logo">
-            </a>
-            <p id="paragraph_navbar" style="color:white; ">tessssssst</p>
-          </div>
-    </nav>
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8" id="description_block" style="height:1000px;">
-          <input type="number" id="calc_value">Type amount of days</input>
-          <select id="withdrawing">
-           <option selected >Choose tool</option>
-           <option value="1">MPI-530 AH3547</option>
-           <option value="2">MIE-500 - 266435 MIC-3 - 347141</option>
-           <option value="3">MIC-5000461214</option>
-           <option value="4">MZC-310s
-             300646</option>
-           <option value="5">PRS-1
-             DASL/KRK-18</option>
-           <option value="6">875i
-             60488062</option>
-           <option value="7">MRP-120</option>
-           <option value="8">MRP-1</option>
-          </select>
-          <button onclick="getValue()" class="calc_button">Calculate</button>
-    
-          <input type="number" id="calc_result">
-            </div>
-          
-         
-         
-          <div class="col-md-2"></div>
-        
-        
+  <nav class="navbar bg-light">
+      <div class="container-fluid" id="nav_bar">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Logo" width="150" height="50" class="d-inline-block align-text-top" id="logo">
+          </a>
+          <p id="paragraph_navbar" style="color:white; ">tessssssst</p>
+        </div>
+  </nav>
+  <div class="row"></div>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-5 col-8" id="description_block">
+        <input class="m-3" type="number" id="calc_value">Type amount of days</input>
+        <select id="withdrawing">
+          <option selected >Choose tool</option>
+          <option value="1">MPI-530 AH3547</option>
+          <option value="2">MIE-500 - 266435 MIC-3 - 347141</option>
+          <option value="3">MIC-5000461214</option>
+          <option value="4">MZC-310s
+            300646</option>
+          <option value="5">PRS-1
+            DASL/KRK-18</option>
+          <option value="6">875i
+            60488062</option>
+          <option value="7">MRP-120</option>
+          <option value="8">MRP-1</option>
+        </select>
+        <button onclick="getValue()" class="calc_button">Calculate</button>
+
+        <input type="number" id="calc_result">
     </div>
+  </div>
 
     <footer class="footer" id="fixed_footer">
       <div class="container">
